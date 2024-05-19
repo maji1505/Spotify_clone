@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- spotify icon  -->
+    <link rel="icon" href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1; font-size: 1.1rem; 
+                ">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+
+
+            </div>
+            <div class="library">
+
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <span class="material-symbols-outlined">
+                            menu
+                        </span>
+                        <a href="#">Your library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus i-one"></i>
+                        <i class="fa-solid fa-arrow-right i-two"></i>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="box-1 box">
+                        <div class="pra">Create your first playlist</div>
+                        <div class="pra">It's easy, we'll help you</div>
+                        <div class="btn">
+                            <button>Create Playlist</button>
+                        </div>
+
+                    </div>
+                    <div class="box-2 box">
+
+                        <div class="pra">Let's find some podcasts to follow</div>
+                        <div class="pra">we'll keep you updated on new episode</div>
+                        <div class="btn">
+                            <button>Browse podcasts</button>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div>
+                    <span class="material-symbols-outlined arr">
+                        chevron_left
+                    </span>
+
+                    <span class="material-symbols-outlined  arr hide ">
+                        chevron_right
+
+                    </span>
+                </div>
+                <div class="fl">
+                    <span class="hide "> <button class="badge badge-1 ">Explore Premium</button> </span>
+                    <span class=""> <button class="badge badge-2 "> <i class="fa-regular fa-circle-down"
+                                style="padding-right: 0.5rem;"></i>Install
+                            App</button>
+                    </span>
+
+                    <span class="bell"><i class="fa-regular fa-bell"></i></span>
+                    <span class="user"><i class="fa-solid fa-user"></i></span>
+                </div>
+
+            </div>
+
+
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <!-- <audio src="Dil-Ibadat(PaglaSongs).mp3"></audio> -->
+                    <img src="https://i.scdn.co/image/ab67616d00001e02f8ef6c7a66a030647287e25b" alt=""
+                    >
+                    <span class="material-symbols-outlined">
+                        play_circle
+                        </span>
+                   
+                   
+                    <p class="card-title"> Kya Mujhe payar...</p>
+                    <p class="card-info">KK</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f000000029ea40053fb491932319307f2" alt="">
+                    <span class="material-symbols-outlined">
+                        play_circle
+                        </span>
+                    <p class="card-title"> khuda Jane</p>
+                    <p class="card-info">KK</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d00001e026539071e0f1833190a491d4d" alt="">
+                    <span class="material-symbols-outlined">
+                        play_circle
+                        </span>
+                    <p class="card-title"> Kya Mujhe payar...</p>
+                    <p class="card-info">KK</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1" alt="">
+                    <span class="material-symbols-outlined">
+                        play_circle
+                        </span>
+                    <p class="card-title"> Kya Mujhe payar...</p>
+                    <p class="card-info">KK</p>
+                </div>
+
+            </div>
+            <h2>Trending now near you</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706c0000da8406541ca8ef7ab0996a1fcac8" alt="">
+                    <span class="material-symbols-outlined">
+                        play_circle
+                        </span>
+                    <p class="card-title"> Kya Mujhe payar...</p>
+                    <p class="card-info">KK</p>
+                </div>
+
+
+
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706c0000da84432a41bbc21e1f73916f1caa" alt="">
+                    <span class="material-symbols-outlined">
+                        play_circle
+                        </span>
+                    <p class="card-title"> Kya Mujhe payar...</p>
+                    <p class="card-info">KK</p>
+                </div>
+
+
+
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67656300005f1f2ce0e90a719804a7545bacc8" alt="">
+                    <span class="material-symbols-outlined">
+                        play_circle
+                        </span>
+                    <p class="card-title"> Kya Mujhe payar...</p>
+                    <p class="card-info">KK</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67656300005f1fd25f84e9f3884ce237cc741c" alt="">
+                    <span class="material-symbols-outlined">
+                        play_circle
+                        </span>
+                    <p class="card-title"> Kya Mujhe payar...</p>
+                    <p class="card-info">KK</p>
+                </div>
+
+
+
+            </div>
+
+            <h2>Top Artist India</h2>
+            <div class="cards-container">
+                <div class="card artist">
+
+                    <img style="height: 179.99px;"
+                        src="https://i.scdn.co/image/ab676161000051740261696c5df3be99da6ed3f3" alt="">
+                        <span class="material-symbols-outlined">
+                            play_circle
+                            </span>
+
+                    <p class="card-title"> Kya Mujhe payar...</p>
+                    <p class="card-info">KK</p>
+                </div>
+
+
+
+                <div class="card artist">
+                    <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="">
+                    <span class="material-symbols-outlined">
+                        play_circle
+                        </span>
+                    <p class="card-title"> Kya Mujhe payar...</p>
+                    <p class="card-info">KK</p>
+                </div>
+
+
+
+                <div class="card artist">
+                    <img src="https://i.scdn.co/image/ab67616100005174b09a31f853166e721d4d46b2" alt="">
+                    <span class="material-symbols-outlined">
+                        play_circle
+                        </span>
+                    <p class="card-title"> Kya Mujhe payar...</p>
+                    <p class="card-info">KK</p>
+                </div>
+
+                <div class="card artist">
+                    <img src="https://i.scdn.co/image/ab6761610000517416691117e2ba803946b203ba" alt="">
+                    <span class="material-symbols-outlined">
+                        play_circle
+                        </span>
+                    <p class="card-title"> Kya Mujhe payar...</p>
+                    <p class="card-info">KK</p>
+                </div>
+
+
+
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="song">
+                <div>
+                    <img src="https://i.scdn.co/image/ab67616d00001e02f8ef6c7a66a030647287e25b" alt="">
+                </div>
+                <div class="name">
+                    <p class=" nam"> Kya Mujhe payar...</p>
+                    <p class="sing">Kk</p>
+
+                </div>
+            </div>
+            <div class="controll">
+                <div class="top">
+                    <span style="opacity: 0.5;" class="material-symbols-outlined">
+                        repeat_one
+                    </span>
+                    <span style="opacity: 0.5;" class="material-symbols-outlined">
+                        skip_previous
+                    </span>
+                    <span style="font-size: 2rem;" class="material-symbols-outlined">
+                        play_circle
+                    </span>
+                    <span style="opacity: 0.5;" class="material-symbols-outlined">
+                        skip_next
+                    </span>
+                    <span style="opacity: 0.5;" class="material-symbols-outlined">
+                        repeat
+                    </span>
+                </div>
+                <div class="bot"></div>
+                <span style="font-size: 0.8rem; opacity: 0.5;">0:52</span>
+                <span>
+                    <input class="p-bar" type="range" min="0" max="100" step="1">
+                </span>
+                <span style="font-size: 0.8rem; opacity: 0.5;">4:26</span>
+            </div>
+            <div class="sound">
+                <span class="material-symbols-outlined">
+                    slideshow
+                </span>
+                <span class="material-symbols-outlined">
+                    mic_external_on
+                </span>
+                <span class="material-symbols-outlined">
+                    lyrics
+                </span>
+                <span class="material-symbols-outlined">
+                    speaker_group
+                </span>
+                <span class="material-symbols-outlined">
+                    volume_down_alt
+                </span>
+                <input type="range" style="width: 8rem; height: 4px;">
+                <span class="material-symbols-outlined">
+                    video_label
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
